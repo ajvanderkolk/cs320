@@ -1,0 +1,58 @@
+ * Serving Flask app 'application'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.128.0.2:5001
+Press CTRL+C to quit
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_1.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_1.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_2.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_4.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_3.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_5.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_6.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /Node_7.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "POST /password HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:54] "GET /hidden_location.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:41:55] "GET /styles.css HTTP/1.1" 200 -
+ * Serving Flask app 'application'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.128.0.2:5001
+Press CTRL+C to quit
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /Node_1.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /Node_1.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /Node_2.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /Node_4.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /Node_3.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:31] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /Node_5.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /Node_6.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /Node_7.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "POST /password HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /hidden_location.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2024 00:46:32] "GET /styles.css HTTP/1.1" 200 -
