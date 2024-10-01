@@ -1,0 +1,72 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        function subscribe() {
+            var email = prompt("What is your email?", "????");
+
+            $.post({
+              type: "POST",
+              url: "email",
+              data: email,
+              contentType: "application/text; charset=utf-8",
+              dataType: "json"
+            }).done(function(data) {
+              alert(data);
+            }).fail(function(data) {
+              alert("POST failed");
+            });
+          }
+    </script>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 30px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111111;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="browse.html">Browse Data HTML</a></li>
+      <li><a style="color: #donate_link_color#;" href="donate.html#donate_link#">Donate HTML</a></li>
+      <li><a href="browse.json" target="_blank" rel="noopener noreferrer">Browse Data JSON</a></li>
+      <li><a href="visitors.json" target="_blank" rel="noopener noreferrer">Visitors JSON</a></li>
+    </ul>
+        
+    <h1>Welcome!</h1>
+
+    <p>Enjoy the data.</p>
+    <p></p>
+    <p>Consider donating to support the site!</p>
+
+    <button onclick="subscribe()">Subscribe</button>
+    
+    <p>Check out these illustrations of Madison Pedestrian Data.</p><br><br>
+    
+    <img src="timeseries_area_chart.svg"><br><br>
+    <img src="statestreet344_bar_chart.svg"><br><br>
+    <img src="statestreet344_bar_chart.svg?bins=by_week"><br><br>
+    
+</body>
+</html>
